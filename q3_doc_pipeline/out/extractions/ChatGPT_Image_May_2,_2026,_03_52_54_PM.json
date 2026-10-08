@@ -1,0 +1,109 @@
+{
+  "file": "ChatGPT Image May 2, 2026, 03_52_54 PM.png",
+  "document_type": {
+    "value": "passport",
+    "confidence": 1.0,
+    "reason": "The document is a Republic of India passport information page with a photo, personal details, and two machine-readable zone (MRZ) lines at the bottom."
+  },
+  "handwritten": false,
+  "fields": {
+    "passport_number": {
+      "value": "X1234567",
+      "normalized": "X1234567",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "X1234567"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "date_of_birth": {
+      "value": "18/12/1979",
+      "normalized": "1979-12-18",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "18/12/1979"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 2 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "date_of_expiry": {
+      "value": "01/01/2030",
+      "normalized": "2030-01-01",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "01/01/2030"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "mrz_line_2": {
+      "value": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<08",
+      "normalized": "X1234567<7IND7912185M3001010<08",
+      "confidence": 0.93,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "warn"
+      },
+      "validator": {
+        "status": "warn",
+        "notes": [
+          "MRZ check digit(s) failed: dob, expiry"
+        ]
+      },
+      "flags": [
+        "MRZ check digit(s) failed: dob, expiry"
+      ],
+      "votes": [
+        "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<08"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-3.8-flash"
+  ],
+  "needs_human_review": false,
+  "flags": [],
+  "fields_flagged": 0
+}

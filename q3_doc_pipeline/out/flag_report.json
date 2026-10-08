@@ -1,0 +1,131 @@
+{
+  "threshold": 0.8,
+  "flagged_fields": [
+    {
+      "file": "Fatca.jpeg",
+      "document_type": "fatca",
+      "field": "tin_or_pan",
+      "value": "BPQPD3051R",
+      "confidence": 0.786,
+      "reasons": [
+        "low_confidence",
+        "cross_document_conflict"
+      ],
+      "details": [
+        "PAN on PAN card (ABCDE1234F) differs from TIN on FATCA form (BPQPD3051R)"
+      ]
+    },
+    {
+      "file": "Fatca.jpeg",
+      "document_type": "fatca",
+      "field": "fathers_name",
+      "value": "Arjun Das Kumar",
+      "confidence": 0.9,
+      "reasons": [
+        "cross_document_conflict"
+      ],
+      "details": [
+        "father's name partial match: PAN 'S/O KUMAR' vs FATCA 'Arjun Das Kumar' (one is a subset of the other)"
+      ]
+    },
+    {
+      "file": "ID.png",
+      "document_type": "pan",
+      "field": "pan_number",
+      "value": "ABCDE1234F",
+      "confidence": 0.744,
+      "reasons": [
+        "low_confidence",
+        "cross_document_conflict"
+      ],
+      "details": [
+        "4th char 'D' is not a valid holder-type code",
+        "PAN on PAN card (ABCDE1234F) differs from TIN on FATCA form (BPQPD3051R)"
+      ]
+    },
+    {
+      "file": "ID.png",
+      "document_type": "pan",
+      "field": "fathers_name",
+      "value": "S/O KUMAR",
+      "confidence": 0.9,
+      "reasons": [
+        "cross_document_conflict"
+      ],
+      "details": [
+        "father's name partial match: PAN 'S/O KUMAR' vs FATCA 'Arjun Das Kumar' (one is a subset of the other)"
+      ]
+    },
+    {
+      "file": "Illustration.jpeg",
+      "document_type": "benefit_illustration",
+      "field": "date",
+      "value": "28/04/2026",
+      "confidence": 0.5,
+      "reasons": [
+        "low_confidence",
+        "cross_document_conflict"
+      ],
+      "details": [
+        "reads disagree (40% agreement); other reads: ['20/04/2026', '22/04/2024', '29/04/2024']",
+        "form_date: differs from the majority value across documents (2/4 docs read '26/04/2026')"
+      ]
+    },
+    {
+      "file": "Moral.jpeg",
+      "document_type": "moral_hazard",
+      "field": "date",
+      "value": "06/04/2026",
+      "confidence": 0.586,
+      "reasons": [
+        "low_confidence",
+        "cross_document_conflict"
+      ],
+      "details": [
+        "reads disagree (60% agreement); other reads: ['26/04/2026']",
+        "form_date: differs from the majority value across documents (2/4 docs read '26/04/2026')"
+      ]
+    },
+    {
+      "file": "split.jpeg",
+      "document_type": "multiple_policies",
+      "field": "date",
+      "value": "26/04/2026",
+      "confidence": 0.767,
+      "reasons": [
+        "low_confidence"
+      ],
+      "details": [
+        "reads disagree (60% agreement); other reads: ['26/04/2026.']"
+      ]
+    }
+  ],
+  "cross_document_findings": [
+    {
+      "group": "form_date",
+      "severity": "conflict",
+      "detail": "benefit_illustration.date differs from majority",
+      "values": {
+        "benefit_illustration": "28/04/2026"
+      }
+    },
+    {
+      "group": "form_date",
+      "severity": "conflict",
+      "detail": "moral_hazard.date differs from majority",
+      "values": {
+        "moral_hazard": "06/04/2026"
+      }
+    },
+    {
+      "group": "pan_vs_tin",
+      "severity": "conflict",
+      "detail": "PAN on PAN card (ABCDE1234F) differs from TIN on FATCA form (BPQPD3051R)"
+    },
+    {
+      "group": "fathers_name",
+      "severity": "partial",
+      "detail": "father's name partial match: PAN 'S/O KUMAR' vs FATCA 'Arjun Das Kumar' (one is a subset of the other)"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "DRAFT answer key transcribed by Claude from the sample images (high-value fields zoom-checked). Verify against the images yourself before quoting accuracy numbers. Dates are ISO.",
+  "Aadhar.png": {"aadhaar_number": "123456789012", "full_name": "Ashok", "date_of_birth": "1979-12-18", "address": "S/O Kumar, Kataia, West Bihar, India - 841543"},
+  "ID.png": {"pan_number": "ABCDE1234F", "full_name": "Ashok", "fathers_name": "Kumar", "date_of_birth": "1979-12-18"},
+  "ChatGPT Image May 2, 2026, 03_43_11 PM.png": {"dl_number": "MH1220210001234", "name": "Ashok", "date_of_issue": "2021-06-15", "valid_till": "2041-06-14"},
+  "ChatGPT Image May 2, 2026, 03_52_54 PM.png": {"passport_number": "X1234567", "date_of_birth": "1979-12-18", "date_of_expiry": "2030-01-01", "mrz_line_2": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<08"},
+  "ECS.jpeg": {"bank_account_number": "31004258912", "ifsc_code": "SBIN0227112", "bank_name": "State Bank of India", "amount_figures": "50000", "frequency": "As & when presented"},
+  "Fatca.jpeg": {"policy_number": "1500137601025", "tin_or_pan": "BPQPD3051R", "fathers_name": "Arjun Das Kumar", "place_of_birth": "West Bihar", "nationality": "Indian"},
+  "Illustration.jpeg": {"application_number": "1500137601025", "policyholder_name": "Ashok", "date": "2026-04-26", "place": "West Bihar"},
+  "Moral.jpeg": {"application_number": "1500137601025", "name_of_life_assured": "Ashok", "nominee_relationship": "Nephew", "date": "2026-04-26", "place": "West Bihar"},
+  "split.jpeg": {"proposer_name": "Ashok", "reason_for_multiple_policies": "Financial Planning", "date": "2026-04-26", "place": "West Bihar"},
+  "suitability.jpeg": {"application_number": "1500137601025", "name_of_life_assured": "Ashok", "name_of_agent_sp": "Ramesh Kumar", "date": "2026-04-26", "place": "West Bihar"}
+}

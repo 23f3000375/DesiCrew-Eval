@@ -1,0 +1,156 @@
+{
+  "file": "Fatca.jpeg",
+  "document_type": {
+    "value": "fatca",
+    "confidence": 1.0,
+    "reason": "The document is clearly an Annexure Form containing information required under Section 285BA of the Income Tax Act, 1961, with a tax residency declaration section."
+  },
+  "handwritten": true,
+  "fields": {
+    "policy_number": {
+      "value": "1500137601025",
+      "normalized": "1500137601025",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "1500137601025",
+        "1500137601025",
+        "1500137601025",
+        "1500137601025"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 3 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "tin_or_pan": {
+      "value": "BPQPD3051R",
+      "normalized": "BPQPD3051R",
+      "confidence": 0.786,
+      "components": {
+        "model_conf": 0.966,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [
+        "PAN on PAN card (ABCDE1234F) differs from TIN on FATCA form (BPQPD3051R)"
+      ],
+      "votes": [
+        "BPQPD3051R",
+        "BPQPD 3051R",
+        "BPQPD3051R",
+        "BPQPD3051R"
+      ],
+      "alternatives": [
+        "BPQPD 3051R",
+        "BPQPD3051R,"
+      ],
+      "cross_doc_conflict": true,
+      "needs_review": true,
+      "review_reasons": [
+        "low_confidence",
+        "cross_document_conflict"
+      ]
+    },
+    "fathers_name": {
+      "value": "Arjun Das Kumar",
+      "normalized": "arjun das kumar",
+      "confidence": 0.9,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [
+        "father's name partial match: PAN 'S/O KUMAR' vs FATCA 'Arjun Das Kumar' (one is a subset of the other)"
+      ],
+      "votes": [
+        "Arjun Das Kumar",
+        "Arjun Das Kumar",
+        "Arjun Das Kumar"
+      ],
+      "alternatives": [],
+      "cross_doc_conflict": true,
+      "needs_review": true,
+      "review_reasons": [
+        "cross_document_conflict"
+      ]
+    },
+    "place_of_birth": {
+      "value": "West Bihar.",
+      "normalized": "west bihar",
+      "confidence": 0.965,
+      "components": {
+        "model_conf": 0.93,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "West Bihar",
+        "West Bihar",
+        "West Bihar",
+        "West Bihar."
+      ],
+      "alternatives": [
+        "West Behar",
+        "West Bihar",
+        "West Biher"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "nationality": {
+      "value": "Indian",
+      "normalized": "indian",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "Indian",
+        "Indian",
+        "Indian"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.5-flash"
+  ],
+  "needs_human_review": true,
+  "flags": [],
+  "fields_flagged": 2
+}

@@ -1,0 +1,14 @@
+requests
+python-dotenv
+pillow
+pandas
+openpyxl
+matplotlib
+streamlit
+pymupdf
+scikit-learn
+numpy
+ddgs
+pytest
+# optional (Q3 second-opinion OCR on printed IDs; needs the tesseract program installed, the pipeline works without it):
+# pytesseract

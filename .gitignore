@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+q3_doc_pipeline/out/raw_cache/
+*.pyc

@@ -1,0 +1,114 @@
+{
+  "file": "Aadhar.png",
+  "document_type": {
+    "value": "aadhaar",
+    "confidence": 1.0,
+    "reason": "The document displays the Aadhaar logo, Government of India header, 12-digit Aadhaar number, and QR code."
+  },
+  "handwritten": false,
+  "fields": {
+    "aadhaar_number": {
+      "value": "123456789012",
+      "normalized": "123456789012",
+      "confidence": 0.93,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "warn"
+      },
+      "validator": {
+        "status": "warn",
+        "notes": [
+          "Aadhaar never starts with 0/1",
+          "Verhoeff checksum fails (dummy/sample number, or a misread digit)"
+        ]
+      },
+      "flags": [
+        "Aadhaar never starts with 0/1",
+        "Verhoeff checksum fails (dummy/sample number, or a misread digit)"
+      ],
+      "votes": [
+        "1234 5678 9012"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "full_name": {
+      "value": "Mr. Ashok",
+      "normalized": "ashok",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "Mr. Ashok"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 6 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "date_of_birth": {
+      "value": "18/12/1979",
+      "normalized": "1979-12-18",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "18/12/1979"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 2 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "address": {
+      "value": "S/O Kumar, Kataia, West Bihar India - 841543",
+      "normalized": "kumar kataia west bihar india 841543",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "S/O Kumar, Kataia, West Bihar India - 841543"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-3.6-flash"
+  ],
+  "needs_human_review": false,
+  "flags": [],
+  "fields_flagged": 0
+}

@@ -1,0 +1,184 @@
+[
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 1,
+  "heading": "Assignment Request Form - purpose and office use",
+  "text": "ASSIGNMENT REQUEST FORM (HDFC Life). For office use only: Branch, Received at branch on, Received by, Interaction ID. Note: Assignment form is not required for assignment done to financial/intermediary registered with IRDAI/SEBI/RBI. Please register the Assignment as per the following details.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 1,
+  "heading": "Details of the Assignor",
+  "text": "Details of the Assignor. Name of the Policyholder (Assignor): [handwritten: Ashok]. Proposal/Policy No.: [handwritten: 1500137601025]. Plan: [handwritten: HDFC Life Sanjay Par Advantage]. E-Insurance Account No.: blank. Email ID: blank. Contact No. (Office), (Residential), (Mobile): blank (mobile number is preferable). Contact details provided herein will be updated for all future communications. For customers registered under the National Do Not Call Register, this response will be treated as valid discharge.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 1,
+  "heading": "Details of the Assignee",
+  "text": "Details of the Assignee. Name of the Assignee: [handwritten: HDFC BANK]. Date of Birth, Place of Birth, Gender (M/F), Email ID and Contact No.: blank. Residential Address/Registered Office Address: [handwritten: HDFC BANK, WEST BIHAR]. Communication Address: [handwritten: HDFC BANK, WEST BIHAR]. The Assignee is (please tick one): Individual, Firm, Company, Others (specify). [Company is ticked; Others (specify): handwritten HDFC BANK].",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 1,
+  "heading": "Relationship, reason for assignment and proof",
+  "text": "Relationship of the Assignee with the Assignor (e.g. Parent/Spouse/Child/Lender/Creditor/Guarantor, etc.): [handwritten: CREDITOR]. Reason for Assignment (e.g. the reason could be a financial consideration or love and affection where the Assignment is to an immediate family member): [handwritten: LOAN PROTECTION]. Proof of Assignment enclosed: [handwritten: LOAN SANCTION LETTER]. Note: Proof is applicable for assignment to an individual (other than the immediate family member), firm, company and others.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 1,
+  "heading": "Conditions of assignment (absolute or conditional)",
+  "text": "Is the Assignment subject to any condition: Yes / No (If 'No', the Assignment will be treated as 'Absolute'). [Neither the Yes nor the No box is ticked on this form.] If 'Yes', please specify the condition(s): [left blank]. Example condition printed on the form: the Assignor will not have the right to execute any policy alteration or processing without the written consent of the Assignee; upon expiry of the xx year as specified in the condition, the Assignment will automatically become null and void and all rights will revert to the Assignor.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 1,
+  "heading": "Signatures of Assignor and Assignee",
+  "text": "Signature of Assignor(s): signed [handwritten: Ash], Date: 26/04/2026, Place: West Bihar. Signature of Assignee/Appointee*: signed, Date: 26/04/2026, Place: WEST BIHAR.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 1,
+  "heading": "Details of Appointee (assignee is a minor)",
+  "text": "Details of Appointee (To be filled up in case Assignee is a minor): Name, Relationship with the Assignee, Date of Birth, Gender (M/F), Residential Address/Registered Office Address - all blank on this form. 'I hereby grant my consent to the appointment.' Signature of the Appointee, Date and Place: blank. Customer Acknowledgement Copy (Assignment form) with Policy No., Policyholder Name, Branch Stamp: blank. Customer care: 1860-267-9999 (local charges apply) | 022-68446530 (STD charges apply), Mon-Sat 10 am to 7 pm; Email service@hdfclife.com, nriservice@hdfclife.com (NRI customers); www.hdfclife.com.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 2,
+  "heading": "Important notes (items 1-3)",
+  "text": "Important. 1. The assignment of a policy shall automatically cancel any nomination made in the policy except assignment in favour of HDFC Life Insurance Company. 2. This assignment shall not be effectual unless this Assignment Form is duly completed and delivered, accompanied by the original Policy bond to the company. If the Assignee is a major, then please submit the ID proof and address proof of the Assignee. 3. For cases where the assignment is in favour of an individual or financial institution apart from our channel partners, then the Assignor must get the signature of the Authorised Signatory on the company seal, stamped on any one corner of the Endorsement Sheet.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 2,
+  "heading": "Important notes (items 4-6)",
+  "text": "4. *Appointee Signature will be required in cases where the Assignee is a minor. 5. Policy servicing charges may be levied as applicable. Please refer to your Policy document for details. 6. Taxes will be deducted at source, if applicable, from the payments made under a life insurance policy in accordance with the provisions of the Income-tax Act, 1961. Tax laws are subject to change from time to time.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 2,
+  "heading": "Endorsement on the Policy document",
+  "text": "Endorsement on the Policy document: I/We [handwritten: Ashok], in consideration of [handwritten: LOAN PROTECTION] (reason for assignment), do hereby as beneficial owner(s) assign in favour of [handwritten: HDFC BANK], the Assignee, who is related to me/us as [handwritten: CREDITOR] (mention the relationship), all my/our rights, title and interest in the Insurance Policy No. [handwritten: 1500137601025] granted by HDFC Life Insurance Company Limited assuring the Sum Assured thereby and all other monies, benefits and advantages to be received thereunder, absolutely/on the following condition: [condition left blank].",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 2,
+  "heading": "Endorsement signatures and witness",
+  "text": "Dated this [handwritten: 26] day of [handwritten: APR] 2026. Policyholder (Assignor): Name: [handwritten: Ashok], Address: [handwritten: West Bihar], Date: 26/04/26, Place: West Bihar, signed. Witness: Name: [handwritten: Rajesh], Address: [handwritten: West Bihar], Date: 26/04/26, Place: West Bihar, signed [handwritten: Raj]. Signature of Witness.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Assignment Ashok.pdf",
+  "page": 2,
+  "heading": "Third party declaration",
+  "text": "Third Party Declaration: The person who has affixed his/her thumb impression or has signed in vernacular/has not filled this application form. I hereby declare that the content of this application form has been explained to him/her and I have truthfully recorded the answers provided to me. I further declare that the said person has signed or affixed his/her thumb impression in my presence. Declarant Name, Address, Date, Place and Signature of Third Person: blank on this form. HDFC Life Insurance Company Limited, CIN: L65110MH2000PLC128245, IRDAI Registration No. 101, Regd. Off: 13th Floor, Lodha Excelus, Apollo Mills Compound, N.M. Joshi Marg, Mahalaxmi, Mumbai - 400011.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "Proposal details (Customer Declaration - Application/Proposal Form)",
+  "text": "Customer Declaration - Application/Proposal Form. Application/Proposal Form Number: [handwritten: 1500137601025]. Name of Life Assured/Proposed Policyholder: [handwritten: Ashok]. Type of Plan: [handwritten: Savings]. Name of Insurance Plan: [handwritten: HDFC Life Sanjay Par Advantage]. Premium Payable (INR): [handwritten: 50000]. Frequency: [handwritten: Annual]. Premium Paying Term: [handwritten: 12 years]. Sum Assured (INR): [handwritten: 630000].",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "I/We declare that (items i-ii): basis of the contract and authenticity of documents",
+  "text": "I/We declare that: i. I/We have replied to the questions, and have made the statements in respect of the matters sought for, in the above referenced proposal Form/Electronic proposal form number ('Proposal Form') and I/we understand and agree that the replies given and statements/declarations made in the Proposal Form together with any documents submitted by me/us for processing my/our application for insurance shall be the basis of the contract between me/us and HDFC Life Insurance Company Limited ('the Company'). ii. All documents submitted by me/us along with the Proposal Form are authentic, valid and, where relevant, true copies of originals for the purpose of the Proposal Form have been submitted and I/we have not withheld any material fact within my/our knowledge.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "I/We declare that (items iii-iv): misstatement, Section 45 and change in health",
+  "text": "iii. I/We understand and agree that in case of misstatement and suppression of material facts the policy contract shall be treated in accordance with Section 45 of the Insurance Act, 1938 as amended from time to time. iv. I/We shall be bound to notify the Company forthwith, in writing, of any change in my/our health, occupation or income between the date of the Proposal Form and the date of acceptance of my/our proposal for insurance, as communicated in writing to me/us by the Company.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "I/We declare that (items v-vii): premium payment, money laundering and source of funds",
+  "text": "v. I/We have deposited the first premium along with the Proposal Form, and the premiums payable under the Policy that may be issued in pursuance of the proposal for insurance will be paid strictly in accordance with the law of the land. Amounts paid otherwise than from my account shall be paid only if I/we can establish an insurable interest. vi. All/any amounts paid/payable towards the policy will be out of legally declared and assessed sources. Further, all the premiums will be paid in accordance with the Prevention of Money Laundering Act 2002 (as amended from time to time) or any other applicable laws. vii. I/We will provide information as required by the Company, on its own or under any lawful instruction/order, regarding sources of funds/utilization/withdrawals.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "I/We agree and understand (items i-iv): risk commencement, acceptance, deposit, premium variation",
+  "text": "I/We agree and understand: i. That the Company will be on risk in pursuance of the proposal for insurance only after the risk under the Proposal Form is accepted by the Company and such acceptance is communicated to me/us in writing by the Company. ii. That the Company has the right either to accept or reject my/our proposal without giving reasons thereto, and I undertake that there shall be no costs, claims or charges raised by me/us against the Company thereof. iii. That the Company shall be entitled to retain the premium paid along with the Proposal Form as an interest-free initial deposit to be adjusted against premium payable upon issuance of the Policy. In the event the proposal for insurance is not accepted by the Company, the aforesaid deposit shall be refunded without any interest, subject to deductions for medical costs, if any. iv. That the premium payable as well as the sum assured (main as well as additional benefits) may vary upon assessment of risk by the Company.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "I/We agree and understand (items v-vii): medical and other information, sharing with authorities",
+  "text": "v. That the Company may seek information from any of my/our past or present employers/business associates or from a doctor/medical examiner/hospital/laboratory/clinic who at any time have attended to me/us concerning anything which affects my/our physical or mental health, or may seek information from any insurance office to which an application has been made for insurance on my/our life. I/We hereby authorize such parties to furnish information as required by the Company, without taking the prior consent of my/our family or any member thereof, for processing my/our proposal or at any time thereafter for any other purpose in relation to the Policy. vi. In the event of I/we being medically examined, the answers given by me/us to the medical examiner acting on behalf of the Company shall be deemed to be incorporated in the proposal for insurance. vii. That the Company may, without any reference to me/us or my family or any member thereof, furnish any details/information furnished in the Proposal Form to any judicial or statutory or other authority or to any insurer or reinsurer in connection with the processing of this proposal or for servicing of the policy.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "I/We agree and understand (item viii): consent to communication incl. WhatsApp, NCPR/TRAI",
+  "text": "viii. That in addition to postal or courier service, I/we hereby give my/our explicit consent to the Company and authorize the Company and its representatives to communicate to me/us through call/email/SMS or VoIP (Voice over Internet Protocol), including but not limited to WhatsApp, regarding my/our insurance policy or financial planning, and agree to waive any registration made by me/us under NCPR (National Customer Preference Registry) or any other registry as prescribed by the Telecom Regulatory Authority of India (TRAI) from time to time.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "I/We agree and understand (items ix-x): disclosures, Section 45, personal data consent",
+  "text": "ix. I hereby declare and agree that the disclosures along with the statements and declarations made under the proposal, made by me as Proposer and on behalf of the other/secondary life assured in case of joint life proposals, will be the basis of the contract of assurance between us and the Company. If any statement is found to be untrue or inaccurate, or if any fact that might influence the terms of acceptance of the proposal is not disclosed by me in my capacity as Proposer and on behalf of the other/secondary life assured, the contract shall be treated in accordance with Section 45 of the Insurance Act, 1938 as amended from time to time. x. That I/We have voluntarily given my/our consent to collect, process, receive, possess, share, store, deal or handle my/our personal information and sensitive personal data or information [as defined under applicable laws including the Information Technology (Reasonable security practices and procedures and sensitive personal data or information) Rules 2011 as amended from time to time], with third parties/vendors associated with the Company for various purposes and outsourced activities related to issuance/servicing/settlement of claim as required under the Policy.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 1,
+  "heading": "Final declaration on accuracy and terms",
+  "text": "I/We hereby declare and represent that the details or information mentioned in the above referenced Proposal/Application Form are true and correct and that I/we accept the Terms and Conditions mentioned therein. Further I/we agree that by placing our signature on this form/declaration it shall be deemed that I/we have placed my/our physical signature on the Proposal/Application Form.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 2,
+  "heading": "Additional Declaration (health rider/product) items i-iii",
+  "text": "Additional Declaration (Applicable for Health Rider/Product): i. I/We hereby declare, on my/our behalf and on behalf of all persons proposed to be insured, that the statements, answers and/or particulars given by me/us in the Proposal Form are true and complete in all respects to the best of my/our knowledge and that I/We am/are authorised to propose on behalf of these other persons. ii. I/We understand that the information provided by me/us will form the basis of the insurance policy, is subject to the Board approved underwriting policy of the insurer, and that the policy will come into force only after full payment of the premium chargeable. iii. I/We further declare that I/We will notify in writing any change occurring in the occupation or general health of the life to be insured/proposer after the proposal has been submitted but before communication of the risk acceptance by the Company.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 2,
+  "heading": "Additional Declaration (health rider/product) items iv-v: medical information and data sharing",
+  "text": "iv. I/We declare that I/We consent to the Company seeking medical information from any doctor or hospital who/which at any time has attended on the person to be insured/proposer, or from any past or present employer, concerning anything which affects the physical or mental health of the person to be insured/proposer, and seeking information from any insurer to whom an application for insurance on the person to be insured/proposer has been made, for the purpose of underwriting the proposal and/or claim settlement. v. I/We authorize the Company to share information pertaining to my/our proposal including the medical records of the insured/proposer for the sole purpose of underwriting the proposal and/or claims settlement and with any Governmental and/or Regulatory authority.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 2,
+  "heading": "Signature of the life to be assured / proposed policyholder",
+  "text": "Signature/Thumb Impression of (Primary) life to be assured. Signature should match with signature of ECS/SI mandate. Mobile: blank. Date: 26/04/2026. Place: West Bihar. Signed [handwritten: Ash]. Signature/Thumb Impression of Life to be Assured/Proposed Policyholder.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 2,
+  "heading": "Declaration if signed in vernacular language / thumb impression affixed",
+  "text": "Declaration (if signed in vernacular language / thumb impression has been affixed above). Declaration to be made by a 3rd person where: the life(s) to be assured/proposed policyholder has/have affixed his/her thumb impression; OR has signed in vernacular; OR has not filled the application; OR/AND the spouse of the life to be assured/proposed policyholder has affixed his/her thumb impression or signed in vernacular the Declaration of Good Health applicable under Elite Option of Smart Woman Plan. I hereby declare that I have explained the contents of the above referenced Application/Proposal Form Number to the life(s) to be assured/proposed policyholder in [language - blank] language and have truthfully recorded the answers provided to me. I further declare that the life(s) to be assured/proposed policyholder has signed/affixed his/her thumb impression on this form/declaration in my presence and he/she has consented/agreed to all the details mentioned in the Proposal Form. Name, Address and Occupation of the Declarant; Name, Address and Occupation of the Witness; Date (DD/MM/YYYY), Place and Signatures: all blank on this form.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ },
+ {
+  "doc": "Proposal Ashok.pdf",
+  "page": 2,
+  "heading": "Declaration made by Life to be Assured / Proposed Policyholder",
+  "text": "Declaration made by Life to be Assured/Proposed Policyholder: I/We certify that the contents of the form have been fully explained to me by Mr./Mrs./Miss.: [blank]. Name of Policyholder, Date (DD/MM/YYYY), Place and Signature/Thumb impression of Life to be Assured/Proposed Policyholder: blank on this form. HDFC Life Insurance Company Limited (HDFC Life), CIN: L65110MH2000PLC128245, IRDAI Registration No. 101, Regd. Off: 13th Floor, Lodha Excelus, Apollo Mills Compound, N.M. Joshi Marg, Mahalaxmi, Mumbai - 400 011. For queries call 1860-267-9999 (local charges apply). DO NOT prefix any country code e.g. +91 or 00. Available Mon-Sat from 10 am to 7 pm. Email service@hdfclife.com | nriservice@hdfclife.com (for NRI customers only) | www.hdfclife.com.",
+  "transcribed_by": "Claude, manually from the scanned page (handwriting shown as [handwritten: ...]); re-generate with: python q2_doc_assistant/kb.py --fresh"
+ }
+]

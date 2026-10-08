@@ -1,0 +1,145 @@
+{
+  "file": "ECS.jpeg",
+  "document_type": {
+    "value": "nach_ecs",
+    "confidence": 1.0,
+    "reason": "The document is clearly titled 'NACH MANDATE INSTRUCTION' and contains standard NACH fields such as UMRN, bank account details, and authorization signatures."
+  },
+  "handwritten": true,
+  "fields": {
+    "bank_account_number": {
+      "value": "31004258912",
+      "normalized": "31004258912",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "31004258912",
+        "31004258912",
+        "31004258912",
+        "31004258912"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "ifsc_code": {
+      "value": "SBIN0227112",
+      "normalized": "SBIN0227112",
+      "confidence": 0.883,
+      "components": {
+        "model_conf": 0.965,
+        "agreement": 0.8,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [
+        "reads disagree (80% agreement); other reads: ['SBIN022712']"
+      ],
+      "votes": [
+        "SBIN0227112",
+        "SBIN022712",
+        "SBIN0227112",
+        "SBIN0227112"
+      ],
+      "alternatives": [
+        "SB1N0227112",
+        "SBIN0227I12"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "bank_name": {
+      "value": "State Bank of India",
+      "normalized": "state bank of india",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.963,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "State Bank of India",
+        "State Bank of India",
+        "State Bank of India"
+      ],
+      "alternatives": [
+        "State Nan Bank of India"
+      ],
+      "notes": [
+        "corroborated by 1 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "amount_figures": {
+      "value": "50000",
+      "normalized": "50000",
+      "confidence": 0.999,
+      "components": {
+        "model_conf": 0.998,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "50,000",
+        "50,000",
+        "50,000",
+        "50,000"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "frequency": {
+      "value": "As & when presented",
+      "normalized": "as & when presented",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "As & when presented",
+        "As & when presented",
+        "As & when presented"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.5-flash"
+  ],
+  "needs_human_review": false,
+  "flags": [],
+  "fields_flagged": 0
+}

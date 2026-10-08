@@ -1,0 +1,106 @@
+{
+  "file": "ChatGPT Image May 2, 2026, 03_43_11 PM.png",
+  "document_type": {
+    "value": "driving_licence",
+    "confidence": 1.0,
+    "reason": "The document is an Indian Union Driving Licence containing DL number, vehicle classes, holder details, and issuing authority."
+  },
+  "handwritten": false,
+  "fields": {
+    "dl_number": {
+      "value": "MH1220210001234",
+      "normalized": "MH1220210001234",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "MH12 2021 0001234"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "name": {
+      "value": "MR. ASHOK",
+      "normalized": "ashok",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.99,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "MR. ASHOK"
+      ],
+      "alternatives": [
+        "ASHOK"
+      ],
+      "notes": [
+        "corroborated by 6 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "date_of_issue": {
+      "value": "15/06/2021",
+      "normalized": "2021-06-15",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "15/06/2021"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "valid_till": {
+      "value": "14/06/2041",
+      "normalized": "2041-06-14",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 1.0,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "14/06/2041"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.8-flash"
+  ],
+  "needs_human_review": false,
+  "flags": [],
+  "fields_flagged": 0
+}

@@ -1,0 +1,133 @@
+{
+  "file": "Illustration.jpeg",
+  "document_type": {
+    "value": "benefit_illustration",
+    "confidence": 1.0,
+    "reason": "The document clearly displays the title 'Customer Declaration - Benefit Illustration' with Application/Proposal details and policyholder declaration."
+  },
+  "handwritten": true,
+  "fields": {
+    "application_number": {
+      "value": "1500137601025",
+      "normalized": "1500137601025",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.97,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "1500137601025",
+        "1500137601025",
+        "1500137601025",
+        "1500137601025"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 3 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "policyholder_name": {
+      "value": "Ashok",
+      "normalized": "ashok",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.99,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "Ashok",
+        "Ashok",
+        "Ashok"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 6 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "date": {
+      "value": "28/04/2026",
+      "normalized": "2026-04-28",
+      "confidence": 0.5,
+      "components": {
+        "model_conf": 0.85,
+        "agreement": 0.4,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [
+        "reads disagree (40% agreement); other reads: ['20/04/2026', '22/04/2024', '29/04/2024']",
+        "form_date: differs from the majority value across documents (2/4 docs read '26/04/2026')"
+      ],
+      "votes": [
+        "29/04/2024",
+        "20/04/2026",
+        "22/04/2024",
+        "28/04/2026"
+      ],
+      "alternatives": [
+        "23/04/2026"
+      ],
+      "cross_doc_conflict": true,
+      "needs_review": true,
+      "review_reasons": [
+        "low_confidence",
+        "cross_document_conflict"
+      ]
+    },
+    "place": {
+      "value": "West Bihar",
+      "normalized": "west bihar",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.95,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "West Bihar",
+        "west Bihar",
+        "West Bihar",
+        "West Bihar"
+      ],
+      "alternatives": [
+        "west Bihar"
+      ],
+      "notes": [
+        "corroborated by 3 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-3.6-flash"
+  ],
+  "needs_human_review": true,
+  "flags": [],
+  "fields_flagged": 1
+}

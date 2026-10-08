@@ -1,0 +1,130 @@
+{
+  "file": "split.jpeg",
+  "document_type": {
+    "value": "multiple_policies",
+    "confidence": 1.0,
+    "reason": "The document is titled 'Split & Multiple Policies - Customer Consent form' and has checkboxes for selecting the reason for buying multiple policies."
+  },
+  "handwritten": true,
+  "fields": {
+    "proposer_name": {
+      "value": "Ashok",
+      "normalized": "ashok",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.977,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "Ashok",
+        "Ashok",
+        "Ashok"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 6 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "reason_for_multiple_policies": {
+      "value": "Financial Planning",
+      "normalized": "financial planning",
+      "confidence": 0.995,
+      "components": {
+        "model_conf": 0.99,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "Financial Planning",
+        "Financial Planning",
+        "Financial Planning"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "date": {
+      "value": "26/04/2026",
+      "normalized": "2026-04-26",
+      "confidence": 0.767,
+      "components": {
+        "model_conf": 0.933,
+        "agreement": 0.6,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [
+        "reads disagree (60% agreement); other reads: ['26/04/2026.']"
+      ],
+      "votes": [
+        "26/04/2026",
+        "26/04/2026",
+        "26/04/2026",
+        "26/04/2026."
+      ],
+      "alternatives": [
+        "26/04/2024",
+        "26/04/2026."
+      ],
+      "needs_review": true,
+      "review_reasons": [
+        "low_confidence"
+      ]
+    },
+    "place": {
+      "value": "West Bihar,",
+      "normalized": "west bihar",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.958,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "West Bihar.",
+        "West Bihar",
+        "West Bihar",
+        "West Bihar,"
+      ],
+      "alternatives": [
+        "West Bihar",
+        "West Bihar."
+      ],
+      "notes": [
+        "corroborated by 3 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-3.6-flash",
+    "gemini:gemini-3.7-flash",
+    "gemini:gemini-3.8-flash"
+  ],
+  "needs_human_review": true,
+  "flags": [],
+  "fields_flagged": 1
+}

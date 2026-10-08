@@ -1,0 +1,155 @@
+{
+  "file": "Moral.jpeg",
+  "document_type": {
+    "value": "moral_hazard",
+    "confidence": 1.0,
+    "reason": "The document title is 'Moral Hazard Questionnaire' with standard fields for nominee details and declaration."
+  },
+  "handwritten": true,
+  "fields": {
+    "application_number": {
+      "value": "1500137601025",
+      "normalized": "1500137601025",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.98,
+        "agreement": 1.0,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "1500137601025",
+        "1500137601025",
+        "1500137601025",
+        "1500137601025"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 3 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "name_of_life_assured": {
+      "value": "Ashok",
+      "normalized": "ashok",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.983,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "Ashok",
+        "Ashok",
+        "Ashok"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 6 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "nominee_relationship": {
+      "value": "Nephew",
+      "normalized": "nephew",
+      "confidence": 0.987,
+      "components": {
+        "model_conf": 0.973,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "Nephew",
+        "Nephew",
+        "Nephew"
+      ],
+      "alternatives": [],
+      "needs_review": false,
+      "review_reasons": []
+    },
+    "date": {
+      "value": "06/04/2026",
+      "normalized": "2026-04-06",
+      "confidence": 0.586,
+      "components": {
+        "model_conf": 0.867,
+        "agreement": 0.6,
+        "validator": "valid"
+      },
+      "validator": {
+        "status": "valid",
+        "notes": []
+      },
+      "flags": [
+        "reads disagree (60% agreement); other reads: ['26/04/2026']",
+        "form_date: differs from the majority value across documents (2/4 docs read '26/04/2026')"
+      ],
+      "votes": [
+        "06/04/2026",
+        "06/04/2026",
+        "06/04/2026",
+        "26/04/2026"
+      ],
+      "alternatives": [
+        "06/04/2024"
+      ],
+      "cross_doc_conflict": true,
+      "needs_review": true,
+      "review_reasons": [
+        "low_confidence",
+        "cross_document_conflict"
+      ]
+    },
+    "place": {
+      "value": "West Bihar",
+      "normalized": "west bihar",
+      "confidence": 1.0,
+      "components": {
+        "model_conf": 0.958,
+        "agreement": 1.0,
+        "validator": "na"
+      },
+      "validator": {
+        "status": "na",
+        "notes": []
+      },
+      "flags": [],
+      "votes": [
+        "West Bihar",
+        "West Bihar",
+        "West Bihar",
+        "West Bihar"
+      ],
+      "alternatives": [],
+      "notes": [
+        "corroborated by 3 other document(s)"
+      ],
+      "needs_review": false,
+      "review_reasons": []
+    }
+  },
+  "models_used": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-3.6-flash",
+    "gemini:gemini-3.7-flash"
+  ],
+  "needs_human_review": true,
+  "flags": [],
+  "fields_flagged": 1
+}

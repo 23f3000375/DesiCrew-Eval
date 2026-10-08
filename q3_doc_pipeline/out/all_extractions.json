@@ -1,0 +1,1325 @@
+[
+  {
+    "file": "Aadhar.png",
+    "document_type": {
+      "value": "aadhaar",
+      "confidence": 1.0,
+      "reason": "The document displays the Aadhaar logo, Government of India header, 12-digit Aadhaar number, and QR code."
+    },
+    "handwritten": false,
+    "fields": {
+      "aadhaar_number": {
+        "value": "123456789012",
+        "normalized": "123456789012",
+        "confidence": 0.93,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "warn"
+        },
+        "validator": {
+          "status": "warn",
+          "notes": [
+            "Aadhaar never starts with 0/1",
+            "Verhoeff checksum fails (dummy/sample number, or a misread digit)"
+          ]
+        },
+        "flags": [
+          "Aadhaar never starts with 0/1",
+          "Verhoeff checksum fails (dummy/sample number, or a misread digit)"
+        ],
+        "votes": [
+          "1234 5678 9012"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "full_name": {
+        "value": "Mr. Ashok",
+        "normalized": "ashok",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Mr. Ashok"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 6 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date_of_birth": {
+        "value": "18/12/1979",
+        "normalized": "1979-12-18",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "18/12/1979"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 2 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "address": {
+        "value": "S/O Kumar, Kataia, West Bihar India - 841543",
+        "normalized": "kumar kataia west bihar india 841543",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "S/O Kumar, Kataia, West Bihar India - 841543"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-3.6-flash"
+    ],
+    "needs_human_review": false,
+    "flags": [],
+    "fields_flagged": 0
+  },
+  {
+    "file": "ChatGPT Image May 2, 2026, 03_43_11 PM.png",
+    "document_type": {
+      "value": "driving_licence",
+      "confidence": 1.0,
+      "reason": "The document is an Indian Union Driving Licence containing DL number, vehicle classes, holder details, and issuing authority."
+    },
+    "handwritten": false,
+    "fields": {
+      "dl_number": {
+        "value": "MH1220210001234",
+        "normalized": "MH1220210001234",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "MH12 2021 0001234"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "name": {
+        "value": "MR. ASHOK",
+        "normalized": "ashok",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.99,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "MR. ASHOK"
+        ],
+        "alternatives": [
+          "ASHOK"
+        ],
+        "notes": [
+          "corroborated by 6 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date_of_issue": {
+        "value": "15/06/2021",
+        "normalized": "2021-06-15",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "15/06/2021"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "valid_till": {
+        "value": "14/06/2041",
+        "normalized": "2041-06-14",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "14/06/2041"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.8-flash"
+    ],
+    "needs_human_review": false,
+    "flags": [],
+    "fields_flagged": 0
+  },
+  {
+    "file": "ChatGPT Image May 2, 2026, 03_52_54 PM.png",
+    "document_type": {
+      "value": "passport",
+      "confidence": 1.0,
+      "reason": "The document is a Republic of India passport information page with a photo, personal details, and two machine-readable zone (MRZ) lines at the bottom."
+    },
+    "handwritten": false,
+    "fields": {
+      "passport_number": {
+        "value": "X1234567",
+        "normalized": "X1234567",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "X1234567"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date_of_birth": {
+        "value": "18/12/1979",
+        "normalized": "1979-12-18",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "18/12/1979"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 2 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date_of_expiry": {
+        "value": "01/01/2030",
+        "normalized": "2030-01-01",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "01/01/2030"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "mrz_line_2": {
+        "value": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<08",
+        "normalized": "X1234567<7IND7912185M3001010<08",
+        "confidence": 0.93,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "warn"
+        },
+        "validator": {
+          "status": "warn",
+          "notes": [
+            "MRZ check digit(s) failed: dob, expiry"
+          ]
+        },
+        "flags": [
+          "MRZ check digit(s) failed: dob, expiry"
+        ],
+        "votes": [
+          "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<08"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-3.8-flash"
+    ],
+    "needs_human_review": false,
+    "flags": [],
+    "fields_flagged": 0
+  },
+  {
+    "file": "ECS.jpeg",
+    "document_type": {
+      "value": "nach_ecs",
+      "confidence": 1.0,
+      "reason": "The document is clearly titled 'NACH MANDATE INSTRUCTION' and contains standard NACH fields such as UMRN, bank account details, and authorization signatures."
+    },
+    "handwritten": true,
+    "fields": {
+      "bank_account_number": {
+        "value": "31004258912",
+        "normalized": "31004258912",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "31004258912",
+          "31004258912",
+          "31004258912",
+          "31004258912"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "ifsc_code": {
+        "value": "SBIN0227112",
+        "normalized": "SBIN0227112",
+        "confidence": 0.883,
+        "components": {
+          "model_conf": 0.965,
+          "agreement": 0.8,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [
+          "reads disagree (80% agreement); other reads: ['SBIN022712']"
+        ],
+        "votes": [
+          "SBIN0227112",
+          "SBIN022712",
+          "SBIN0227112",
+          "SBIN0227112"
+        ],
+        "alternatives": [
+          "SB1N0227112",
+          "SBIN0227I12"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "bank_name": {
+        "value": "State Bank of India",
+        "normalized": "state bank of india",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.963,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "State Bank of India",
+          "State Bank of India",
+          "State Bank of India"
+        ],
+        "alternatives": [
+          "State Nan Bank of India"
+        ],
+        "notes": [
+          "corroborated by 1 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "amount_figures": {
+        "value": "50000",
+        "normalized": "50000",
+        "confidence": 0.999,
+        "components": {
+          "model_conf": 0.998,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "50,000",
+          "50,000",
+          "50,000",
+          "50,000"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "frequency": {
+        "value": "As & when presented",
+        "normalized": "as & when presented",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "As & when presented",
+          "As & when presented",
+          "As & when presented"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash"
+    ],
+    "needs_human_review": false,
+    "flags": [],
+    "fields_flagged": 0
+  },
+  {
+    "file": "Fatca.jpeg",
+    "document_type": {
+      "value": "fatca",
+      "confidence": 1.0,
+      "reason": "The document is clearly an Annexure Form containing information required under Section 285BA of the Income Tax Act, 1961, with a tax residency declaration section."
+    },
+    "handwritten": true,
+    "fields": {
+      "policy_number": {
+        "value": "1500137601025",
+        "normalized": "1500137601025",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "1500137601025",
+          "1500137601025",
+          "1500137601025",
+          "1500137601025"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "tin_or_pan": {
+        "value": "BPQPD3051R",
+        "normalized": "BPQPD3051R",
+        "confidence": 0.786,
+        "components": {
+          "model_conf": 0.966,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [
+          "PAN on PAN card (ABCDE1234F) differs from TIN on FATCA form (BPQPD3051R)"
+        ],
+        "votes": [
+          "BPQPD3051R",
+          "BPQPD 3051R",
+          "BPQPD3051R",
+          "BPQPD3051R"
+        ],
+        "alternatives": [
+          "BPQPD 3051R",
+          "BPQPD3051R,"
+        ],
+        "cross_doc_conflict": true,
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence",
+          "cross_document_conflict"
+        ]
+      },
+      "fathers_name": {
+        "value": "Arjun Das Kumar",
+        "normalized": "arjun das kumar",
+        "confidence": 0.9,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [
+          "father's name partial match: PAN 'S/O KUMAR' vs FATCA 'Arjun Das Kumar' (one is a subset of the other)"
+        ],
+        "votes": [
+          "Arjun Das Kumar",
+          "Arjun Das Kumar",
+          "Arjun Das Kumar"
+        ],
+        "alternatives": [],
+        "cross_doc_conflict": true,
+        "needs_review": true,
+        "review_reasons": [
+          "cross_document_conflict"
+        ]
+      },
+      "place_of_birth": {
+        "value": "West Bihar.",
+        "normalized": "west bihar",
+        "confidence": 0.965,
+        "components": {
+          "model_conf": 0.93,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "West Bihar",
+          "West Bihar",
+          "West Bihar",
+          "West Bihar."
+        ],
+        "alternatives": [
+          "West Behar",
+          "West Bihar",
+          "West Biher"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "nationality": {
+        "value": "Indian",
+        "normalized": "indian",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Indian",
+          "Indian",
+          "Indian"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash"
+    ],
+    "needs_human_review": true,
+    "flags": [],
+    "fields_flagged": 2
+  },
+  {
+    "file": "ID.png",
+    "document_type": {
+      "value": "pan",
+      "confidence": 1.0,
+      "reason": "The document is a Permanent Account Number (PAN) card issued by the Income Tax Department of India, featuring a 10-character alphanumeric PAN and holder details."
+    },
+    "handwritten": false,
+    "fields": {
+      "pan_number": {
+        "value": "ABCDE1234F",
+        "normalized": "ABCDE1234F",
+        "confidence": 0.744,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "warn"
+        },
+        "validator": {
+          "status": "warn",
+          "notes": [
+            "4th char 'D' is not a valid holder-type code"
+          ]
+        },
+        "flags": [
+          "4th char 'D' is not a valid holder-type code",
+          "PAN on PAN card (ABCDE1234F) differs from TIN on FATCA form (BPQPD3051R)"
+        ],
+        "votes": [
+          "ABCDE1234F"
+        ],
+        "alternatives": [],
+        "cross_doc_conflict": true,
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence",
+          "cross_document_conflict"
+        ]
+      },
+      "full_name": {
+        "value": "MR. ASHOK",
+        "normalized": "ashok",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "MR. ASHOK"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 6 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "fathers_name": {
+        "value": "S/O KUMAR",
+        "normalized": "kumar",
+        "confidence": 0.9,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [
+          "father's name partial match: PAN 'S/O KUMAR' vs FATCA 'Arjun Das Kumar' (one is a subset of the other)"
+        ],
+        "votes": [
+          "S/O KUMAR"
+        ],
+        "alternatives": [],
+        "cross_doc_conflict": true,
+        "needs_review": true,
+        "review_reasons": [
+          "cross_document_conflict"
+        ]
+      },
+      "date_of_birth": {
+        "value": "18/12/1979",
+        "normalized": "1979-12-18",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 1.0,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "18/12/1979"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 2 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash"
+    ],
+    "needs_human_review": true,
+    "flags": [],
+    "fields_flagged": 2
+  },
+  {
+    "file": "Illustration.jpeg",
+    "document_type": {
+      "value": "benefit_illustration",
+      "confidence": 1.0,
+      "reason": "The document clearly displays the title 'Customer Declaration - Benefit Illustration' with Application/Proposal details and policyholder declaration."
+    },
+    "handwritten": true,
+    "fields": {
+      "application_number": {
+        "value": "1500137601025",
+        "normalized": "1500137601025",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.97,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "1500137601025",
+          "1500137601025",
+          "1500137601025",
+          "1500137601025"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "policyholder_name": {
+        "value": "Ashok",
+        "normalized": "ashok",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.99,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Ashok",
+          "Ashok",
+          "Ashok"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 6 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date": {
+        "value": "28/04/2026",
+        "normalized": "2026-04-28",
+        "confidence": 0.5,
+        "components": {
+          "model_conf": 0.85,
+          "agreement": 0.4,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [
+          "reads disagree (40% agreement); other reads: ['20/04/2026', '22/04/2024', '29/04/2024']",
+          "form_date: differs from the majority value across documents (2/4 docs read '26/04/2026')"
+        ],
+        "votes": [
+          "29/04/2024",
+          "20/04/2026",
+          "22/04/2024",
+          "28/04/2026"
+        ],
+        "alternatives": [
+          "23/04/2026"
+        ],
+        "cross_doc_conflict": true,
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence",
+          "cross_document_conflict"
+        ]
+      },
+      "place": {
+        "value": "West Bihar",
+        "normalized": "west bihar",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.95,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "West Bihar",
+          "west Bihar",
+          "West Bihar",
+          "West Bihar"
+        ],
+        "alternatives": [
+          "west Bihar"
+        ],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-3.6-flash"
+    ],
+    "needs_human_review": true,
+    "flags": [],
+    "fields_flagged": 1
+  },
+  {
+    "file": "Moral.jpeg",
+    "document_type": {
+      "value": "moral_hazard",
+      "confidence": 1.0,
+      "reason": "The document title is 'Moral Hazard Questionnaire' with standard fields for nominee details and declaration."
+    },
+    "handwritten": true,
+    "fields": {
+      "application_number": {
+        "value": "1500137601025",
+        "normalized": "1500137601025",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.98,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "1500137601025",
+          "1500137601025",
+          "1500137601025",
+          "1500137601025"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "name_of_life_assured": {
+        "value": "Ashok",
+        "normalized": "ashok",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.983,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Ashok",
+          "Ashok",
+          "Ashok"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 6 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "nominee_relationship": {
+        "value": "Nephew",
+        "normalized": "nephew",
+        "confidence": 0.987,
+        "components": {
+          "model_conf": 0.973,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Nephew",
+          "Nephew",
+          "Nephew"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date": {
+        "value": "06/04/2026",
+        "normalized": "2026-04-06",
+        "confidence": 0.586,
+        "components": {
+          "model_conf": 0.867,
+          "agreement": 0.6,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [
+          "reads disagree (60% agreement); other reads: ['26/04/2026']",
+          "form_date: differs from the majority value across documents (2/4 docs read '26/04/2026')"
+        ],
+        "votes": [
+          "06/04/2026",
+          "06/04/2026",
+          "06/04/2026",
+          "26/04/2026"
+        ],
+        "alternatives": [
+          "06/04/2024"
+        ],
+        "cross_doc_conflict": true,
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence",
+          "cross_document_conflict"
+        ]
+      },
+      "place": {
+        "value": "West Bihar",
+        "normalized": "west bihar",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.958,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "West Bihar",
+          "West Bihar",
+          "West Bihar",
+          "West Bihar"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-3.6-flash",
+      "gemini:gemini-3.7-flash"
+    ],
+    "needs_human_review": true,
+    "flags": [],
+    "fields_flagged": 1
+  },
+  {
+    "file": "split.jpeg",
+    "document_type": {
+      "value": "multiple_policies",
+      "confidence": 1.0,
+      "reason": "The document is titled 'Split & Multiple Policies - Customer Consent form' and has checkboxes for selecting the reason for buying multiple policies."
+    },
+    "handwritten": true,
+    "fields": {
+      "proposer_name": {
+        "value": "Ashok",
+        "normalized": "ashok",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.977,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Ashok",
+          "Ashok",
+          "Ashok"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 6 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "reason_for_multiple_policies": {
+        "value": "Financial Planning",
+        "normalized": "financial planning",
+        "confidence": 0.995,
+        "components": {
+          "model_conf": 0.99,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Financial Planning",
+          "Financial Planning",
+          "Financial Planning"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date": {
+        "value": "26/04/2026",
+        "normalized": "2026-04-26",
+        "confidence": 0.767,
+        "components": {
+          "model_conf": 0.933,
+          "agreement": 0.6,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [
+          "reads disagree (60% agreement); other reads: ['26/04/2026.']"
+        ],
+        "votes": [
+          "26/04/2026",
+          "26/04/2026",
+          "26/04/2026",
+          "26/04/2026."
+        ],
+        "alternatives": [
+          "26/04/2024",
+          "26/04/2026."
+        ],
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ]
+      },
+      "place": {
+        "value": "West Bihar,",
+        "normalized": "west bihar",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.958,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "West Bihar.",
+          "West Bihar",
+          "West Bihar",
+          "West Bihar,"
+        ],
+        "alternatives": [
+          "West Bihar",
+          "West Bihar."
+        ],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-3.6-flash",
+      "gemini:gemini-3.7-flash",
+      "gemini:gemini-3.8-flash"
+    ],
+    "needs_human_review": true,
+    "flags": [],
+    "fields_flagged": 1
+  },
+  {
+    "file": "suitability.jpeg",
+    "document_type": {
+      "value": "suitability_profiler",
+      "confidence": 0.99,
+      "reason": "The document is titled 'Customer Declaration - Suitability Profiler' and includes fields for Life Assured and Agent/SP details."
+    },
+    "handwritten": true,
+    "fields": {
+      "application_number": {
+        "value": "1500137601025",
+        "normalized": "1500137601025",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.986,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "1500137601025",
+          "1500137601025",
+          "1500137601025",
+          "1500137601025"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "name_of_life_assured": {
+        "value": "Ashok",
+        "normalized": "ashok",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.987,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Ashok",
+          "Ashok",
+          "Ashok"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 6 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "name_of_agent_sp": {
+        "value": "Ramesh Kumar",
+        "normalized": "ramesh kumar",
+        "confidence": 0.995,
+        "components": {
+          "model_conf": 0.99,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "Ramesh Kumar",
+          "Ramesh Kumar",
+          "Ramesh Kumar"
+        ],
+        "alternatives": [],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "date": {
+        "value": "26/04/2026",
+        "normalized": "2026-04-26",
+        "confidence": 0.996,
+        "components": {
+          "model_conf": 0.932,
+          "agreement": 1.0,
+          "validator": "valid"
+        },
+        "validator": {
+          "status": "valid",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "26/04/26",
+          "26/04/26",
+          "26/04/26",
+          "26/04/26"
+        ],
+        "alternatives": [
+          "26/01/26",
+          "26/04/20",
+          "26/04/24",
+          "26/11/26"
+        ],
+        "notes": [
+          "corroborated by 1 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      },
+      "place": {
+        "value": "West Bihar",
+        "normalized": "west bihar",
+        "confidence": 1.0,
+        "components": {
+          "model_conf": 0.97,
+          "agreement": 1.0,
+          "validator": "na"
+        },
+        "validator": {
+          "status": "na",
+          "notes": []
+        },
+        "flags": [],
+        "votes": [
+          "West Bihar",
+          "West Bihar",
+          "West Bihar",
+          "West Bihar"
+        ],
+        "alternatives": [],
+        "notes": [
+          "corroborated by 3 other document(s)"
+        ],
+        "needs_review": false,
+        "review_reasons": []
+      }
+    },
+    "models_used": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-3.6-flash",
+      "gemini:gemini-3.7-flash"
+    ],
+    "needs_human_review": false,
+    "flags": [],
+    "fields_flagged": 0
+  }
+]
