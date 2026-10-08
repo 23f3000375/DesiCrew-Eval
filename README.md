@@ -9,6 +9,7 @@ model (the `503 ... high demand` error) no longer stops anything: the next model
 | Q2 | `q2_doc_assistant/` | Document-aware support assistant over the two scanned HDFC Life PDFs: vision-OCR ingestion, hybrid retrieval, section-level citations, session memory (no repeats), topic-switch handling, scripted 13-turn demo. Streamlit UI. |
 | Q3 | `q3_doc_pipeline/` | 10-document classify -> extract -> score -> flag pipeline with a handwriting-specific path (multi-read voting + locate-and-zoom), validators/checksums, cross-document checks, evaluator + threshold sweep. |
 
+
 ## Setup (Windows, Git Bash - the commands that work there)
 ```bash
 python -m venv .venv
@@ -16,6 +17,7 @@ source .venv/Scripts/activate          # Git Bash on Windows. (macOS/Linux: sour
 pip install -r requirements.txt
 python common/doctor.py                # shows which models work with YOUR keys (vision / tools / JSON)
 ```
+Currently the env file has no API keys, After recording and before pushing the final code, I removed it from there.
 
 ## Run everything in one go
 ```bash
